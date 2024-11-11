@@ -82,3 +82,32 @@ li:before {
   font-size: 0.9em;
   margin-top: 0.5em;
 }
+/* Additional Media Query for Extra Small Screens (Mobile) */
+@media only screen and (max-width: 480px) {
+  .newsletter-container {
+    padding: 0.5rem;
+  }
+
+  .newsletter-box {
+    padding: 1rem;
+  }
+
+  .newsletter-content {
+    text-align: center;
+  }
+
+  .newsletter-image {
+    margin-top: 1rem;
+    height: 150px; /* Adjust the height of the image for smaller screens */
+  }
+
+  .email-input {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .subscribe-button {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
